@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Diplomata+SC&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 85%;
+    padding: 35px;
+    margin: auto;
+    
+}
+h1{
+    font-size: 30px;
+    font-family: 'Diplomata SC', cursive;
+}
+.container h1, p {
+    text-align: center;
+}
+p{
+    font-size: 17px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(30, 1, 1);
+    font-weight: bold;
+}
+ input , textarea{
+
+border: 2px solid black;
+border-radius: 7px;
+outline: none;    
+font-size: 16px;
+width: 85%;
+margin: 11px;
+padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submitmsg{
+    color: rgb(59, 8, 104);
+}
